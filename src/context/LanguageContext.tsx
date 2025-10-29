@@ -79,7 +79,7 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage, t, isReady }}>
-      {isReady ? children : <div className="min-h-screen flex items-center justify-center">Loading...</div>}
+      {isReady ? children : <div className="min-h-screen flex items-center justify-center">Loading translations...</div>}
     </LanguageContext.Provider>
   );
 };
