@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of AgriConnect",
+  "description": "A comprehensive platform for the modern farmer, integrating direct sales, an information hub with AI-powered guides, a B2B directory, farm management tools with crop analysis, and a community forum.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
